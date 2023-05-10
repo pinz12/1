@@ -13,7 +13,7 @@ public class Main
         int summe = 0;
         for(int i = 0; i <= 10; i++)
         {
-            summe += i;
+            summe = summe + i;
         }
         
         int mult = 1;
