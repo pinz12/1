@@ -19,7 +19,9 @@ public class Main
         int mult = 1;
         for(int i = 2; i <= 10; i++)
         {
-            summe *= i;
+            mult *= i;
         }
+        
+        System.out.println("Summe: " + summe + "Mult: " + mult);
     }
 }
